@@ -18,7 +18,4 @@ public class UserController {
     public String showIndex(){
         return "Bonjour, comment allez-vous les cocos ! ";
     }
-
-    @GetMapping("/connexion/{}")
-    public String connexionUser()
 }
